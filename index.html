@@ -114,8 +114,11 @@
 			  </div>
 			  <div class="span6 offset3 order">
 				  <!-- standard bootstrap button http://twitter.github.io/bootstrap/base-css.html#buttons -->
-				  <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-				  <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+				  <button class="btn btn-success btn-large">Preorder</button>
+			  </div>
+			  <div class="span8 offset2 social">
+				  <button class="btn btn-twitter"><i class="icon-twitter"></i>  Twitter</button>
+				  <button class="btn btn-facebook"><i class="icon-facebook"></i>  Facebook</button>
 			  </div>
 		  </div>
 	  </div>
@@ -145,8 +148,42 @@
 			  <img class="img-polaroid" src="http://placehold.it/480x300">
 		  </div>
 	  </div>
-					
+	  
+	  <!-- For the FAQ we use a littl JS using accordion http://twitter.github.io/bootstrap/javascript.html#collapse -->
+	  <div class="row-fluis faq">
+		  <div class="span10 offset1">
+			  <h3>FAQ</h3>
+			  <div class="accordion" id="accordion2">
+				  <div class="accordion-group">
+					  <div class="accordion-heading">
+						  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> What Does FAQ stand for?</a>
+					  </div>
+					  <div id="collapseOne" class="accordion-body collapse">
+						  <div class="accordion inner">
+							  Frequantly Asked Question.
+						  </div>
+					  </div>
+				<div class="accordion-group">
+					  <div class="accordion-heading">
+						  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> What's a Frequently Asked Question?</a>
+					  </div>
+					  <div id="collapseTwo" class="accordion-body collapse">
+						  <div class="accordion inner">
+							  A Question which is commonly asked by users.
+						  </div>
+					  </div>	
+				  </div>
+			  </div>
+		  </div>			  
 					  
-    </div>
-  </body>
+    
+	<!-- Not crucial, but we put this under creative common license -->
+	<!-- http://creativecommons.org/licenses/by-sa/3.0/ -->
+		<div class= "row-fluid footer">
+			<div class="span12">
+				<p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft that would otherwise be put at the bottom of the page.</p>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
